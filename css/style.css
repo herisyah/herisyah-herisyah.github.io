@@ -1,0 +1,70 @@
+body{
+  background-color:	 	#F0FFFF;
+}
+h2.judulawal{
+  text-align: center;
+}
+p.ketjudulawal{
+  text-align: center;
+}
+body p{
+  text-align: justify;
+}
+h3.juduldua{
+  text-align: center;
+}
+h5.judultiga{
+  text-decoration: underline;
+}
+/* sosial media */
+#share-box {position: relative;float:left;}
+.btnShare{
+float:left;
+padding: 10px;
+margin-right:15px;
+cursor: pointer;
+}
+.btnFacebook {background: #7AA2FE;}
+.btnTwitter {background: #00DEFF;}
+.btnGoogle {background: #FCBDB3;}
+.txt-content {clear:both;padding-top: 5px;}
+.txt-share{color: #FFF;padding-left:5px;}
+@media screen and (min-width: 845px) and (max-width: 1044px) {
+    body{width:50%;margin:0 auto;}
+    #share-box {
+    position: absolute;
+    top:100px;
+    float:left;
+    }
+    .btnShare{
+    clear:both;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    margin-bottom:15px;
+    }
+    .txt-content {
+    border-left: #F0F0F0 1px solid;
+    padding-left: 20px;
+    margin-left: 54px;
+    }
+    .txt-share{display:none;}
+}
+@media screen and (max-width: 844px) {
+    body{width:80%;margin:0 auto;}
+    .btnShare {
+    float: left;
+    padding: 15px;
+    cursor: pointer;
+    border-radius:5px;
+    }
+    .txt-share{display:none;}
+}
+p.kaki{
+  text-align: center;
+}
+.footer{
+  background-color:  #66757F;
+  padding: 30px 30px 30px 30px;
+}
